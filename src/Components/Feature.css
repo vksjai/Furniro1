@@ -1,0 +1,15 @@
+.feature {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Optional background color */
+}
+
+.feature img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Optional: scales the image proportionally */
+  align-items: center;
+  justify-content: center;
+}

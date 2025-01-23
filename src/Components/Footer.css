@@ -1,0 +1,79 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.links-help-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+}
+
+.links-help-container > * {
+  flex: 1;
+}
+
+.col h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px; /* Increase font size */
+}
+
+.col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.col ul li {
+  margin-bottom: 5px;
+}
+
+.col ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px; /* Increase font size */
+}
+
+.col input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-size: 16px; /* Increase font size */
+}
+
+.col button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px; /* Increase font size */
+}
+
+.col button:hover {
+  background-color: #e5e234;
+}
