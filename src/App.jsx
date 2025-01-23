@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './Components/Header'
 import Herosection from './Components/Herosection'
-import FilterBar from './Components/Filterbar'
+import FilterBar from './Components/FilterBar'
 import Grid from './Components/Grid'
 import Feature from './Components/Feature'
 import Footer from './Components/Footer'
